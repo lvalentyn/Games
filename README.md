@@ -1,0 +1,3 @@
+|  #  | Code                                                                                             | Demo                                                                     |
+| :-: | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
+| 01  | [Rock Paper Scissors](https://github.com/lvalentyn/Games/tree/master/RockPaperScissors)            | [Demo](https://lvalentyn.github.io/Games/RockPaperScissors/)           |
