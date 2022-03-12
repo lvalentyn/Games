@@ -1,0 +1,9 @@
+
+#grid {
+	width: 440px;
+	height: 440px;
+}
+
+#grid * {
+	margin: 5px;
+}
