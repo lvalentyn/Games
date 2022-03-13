@@ -50,7 +50,6 @@ const cardArray = [
 ]
 
 cardArray.sort(() => 0.5 - Math.random()) /* for arr shaffeling  */
-console.log(cardArray)
 
 const btn = document.querySelector('button')
 const gridOutput = document.querySelector('#grid')
@@ -68,7 +67,6 @@ function resetGame() {
 createBoard()
 
 function createBoard() {
-
 
 	for (let i = 0; i < cardArray.length; i++) {
 		const card = document.createElement('img')
@@ -88,7 +86,7 @@ function flipCard() {
 	this.src = cardArray[cardId].img
 
 	if (cardsChoisen.length === 2) {
-		setTimeout(checkMatch, 100)
+		setTimeout(checkMatch, 200)
 	}
 }
 
